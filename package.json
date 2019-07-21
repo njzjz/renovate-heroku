@@ -6,7 +6,7 @@
     "node": "^8.9.0"
   },
   "scripts": {
-    "renovate": "pip install mock --user　&&　RENOVATE_PAGINATE_ALL=true renovate --autodiscover --autodiscover-filter 'njzjz/*'"
+    "renovate": "pip install -u mock　&&　RENOVATE_PAGINATE_ALL=true renovate --autodiscover --autodiscover-filter 'njzjz/*'"
   },
   "repository": {
     "type": "git",

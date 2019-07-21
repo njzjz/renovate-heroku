@@ -6,7 +6,7 @@
     "node": "^8.9.0"
   },
   "scripts": {
-    "renovate": "renovate --autodiscover"
+    "renovate": "renovate --autodiscover --autodiscoverFilter=njzjz/*"
   },
   "repository": {
     "type": "git",
